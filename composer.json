@@ -1,6 +1,6 @@
 {
     "name": "ugo/simple-orm",
-    "description": "Mmaking database call a breeze",
+    "description": "Making database call a breeze",
     "type": "library",
     "authors": [
         {
@@ -14,5 +14,7 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php":">=7.2.0"
+    }
 }
