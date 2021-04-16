@@ -12,7 +12,8 @@ It gives you the flexibility to write complex SQL queries in one line of code
 require_once __DIR__."/../vendor/autoload.php";
 use DbObject\DbObject;
 
-$object = new DbObject($dbcnx->connect());
+$dbcnx = [YOUR DATABASE CONNECTION STRING];
+$object = new DbObject($dbcnx);
 
 // to select 2 records from the table userdata 
 $output = $object->doSelect('userdata')->limit('2')->run();
