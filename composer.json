@@ -3,6 +3,7 @@
     "description": "Making database call a breeze",
     "type": "library",
     "license": "MIT",
+    "keywords": ["ORM","DATABASE","MYSQLI"],
     "authors": [
         {
             "name": "Ugochukwu",
