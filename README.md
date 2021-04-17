@@ -3,10 +3,10 @@
 **Simple-orm** is an Object Relational Mapper for _php >=7.0.0_.
 It gives you the flexibility to write complex SQL queries in one line of code
 
-##Installation
+## Installation
 > composer require ugo/simple-orm
 
-##Usage
+## Usage
 ```php
 <?php
 require_once __DIR__."/../vendor/autoload.php";
