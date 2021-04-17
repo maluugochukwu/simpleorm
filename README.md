@@ -23,4 +23,9 @@ var_dump($output);
 // get all records but just the username and password fields from table userdata 
 $output = $object->doSelect('userdata',['username','password'])->run();
 var_dump($output);
+
+
+/// insert records to table userdata 
+$output = $object->doInsert('userdata',['username'=>'joe@mail.com','password'=>'123456'],[]);
+var_dump($output);
 ```
