@@ -3,10 +3,10 @@
 **Simple-orm** is an Object Relational Mapper for _php >=7.0.0_.
 It gives you the flexibility to write complex SQL queries in one line of code
 
-##Installation
+## Installation
 > composer require ugo/simple-orm
 
-##Usage
+## Usage
 ```php
 <?php
 require_once __DIR__."/../vendor/autoload.php";
@@ -22,5 +22,10 @@ var_dump($output);
 
 // get all records but just the username and password fields from table userdata 
 $output = $object->doSelect('userdata',['username','password'])->run();
+var_dump($output);
+
+
+/// insert records to table userdata 
+$output = $object->doInsert('userdata',['username'=>'joe@mail.com','password'=>'123456'],[]);
 var_dump($output);
 ```
