@@ -1,5 +1,5 @@
 {
-    "name": "ugo/simlpeorm",
+    "name": "ugo/simpleorm",
     "description": "Making database call a breeze",
     "type": "library",
     "license": "MIT",
