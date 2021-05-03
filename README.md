@@ -4,7 +4,7 @@
 It gives you the flexibility to write complex SQL queries in one line of code
 
 ## Installation
-> composer require ugo/simple-orm
+> composer require ugo/simpleorm
 
 ## Usage
 ```php
